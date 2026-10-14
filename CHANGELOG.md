@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/g-surkis/devops-sandbox/compare/v1.1.1...v1.1.2) (2026-10-14)
+
+
+### Bug Fixes
+
+* record lefthook in dev dependencies ([#13](https://github.com/g-surkis/devops-sandbox/issues/13)) ([e2d1f21](https://github.com/g-surkis/devops-sandbox/commit/e2d1f21f2bc766d9e8f3a25525730eb5f2262e4c))
+
 ## [1.1.1](https://github.com/g-surkis/devops-sandbox/compare/v1.1.0...v1.1.1) (2026-10-14)
 
 
