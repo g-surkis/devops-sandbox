@@ -1,4 +1,4 @@
-pre-commit:
+commit-msg:
   commands:
-    hello:
-      run: echo "lefthook pre-commit works"   # temporary test hook, replaced in the next steps
+    commitlint:
+      run: npx commitlint --edit {1}   # {1} = path to the temp file git uses for the commit message
