@@ -1,0 +1,17 @@
+name: release
+
+on:
+  push:
+    branches: [main]   # runs after every merge into main
+
+permissions:
+  contents: write        # create tags and GitHub Releases
+  pull-requests: write   # open and update the Release PR
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: googleapis/release-please-action@v4
+        with:
+          release-type: simple   # language-agnostic: tracks version in version.txt + CHANGELOG.md, no package.json needed
