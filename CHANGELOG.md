@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/g-surkis/devops-sandbox/compare/v1.0.0...v1.0.1) (2026-10-14)
+
+
+### Bug Fixes
+
+* readme-wording ([#6](https://github.com/g-surkis/devops-sandbox/issues/6)) ([d4a4cd4](https://github.com/g-surkis/devops-sandbox/commit/d4a4cd4b90e7b0d197acc4fc478a90cae47be09c))
+
 ## 1.0.0 (2026-10-14)
 
 
