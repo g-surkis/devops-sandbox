@@ -1,0 +1,4 @@
+pre-commit:
+  commands:
+    hello:
+      run: echo "lefthook pre-commit works"   # temporary test hook, replaced in the next steps
