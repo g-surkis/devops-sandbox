@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/g-surkis/devops-sandbox/compare/v1.0.1...v1.1.0) (2026-10-14)
+
+
+### Features
+
+* new paragraph ([#7](https://github.com/g-surkis/devops-sandbox/issues/7)) ([a4e63e3](https://github.com/g-surkis/devops-sandbox/commit/a4e63e39c9854f74bbc637e6df0202f82cc57429))
+
 ## [1.0.1](https://github.com/g-surkis/devops-sandbox/compare/v1.0.0...v1.0.1) (2026-10-14)
 
 
