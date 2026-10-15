@@ -2,6 +2,9 @@ pre-commit:
   commands:
     gitleaks:
       run: gitleaks git --staged --redact --verbose   # scan only staged changes; --redact hides secret values in output
+    shellcheck:
+      glob: "*.sh"                    # run only when staged files include shell scripts
+      run: shellcheck {staged_files}  # check only the staged .sh files, not the whole repo
 
 commit-msg:
   commands:
