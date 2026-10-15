@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/g-surkis/devops-sandbox/compare/v1.2.0...v1.3.0) (2026-10-15)
+
+
+### Features
+
+* bash-arrays-jq ([#17](https://github.com/g-surkis/devops-sandbox/issues/17)) ([fd205cb](https://github.com/g-surkis/devops-sandbox/commit/fd205cb9b3bedc4200d4bba43b047cfa1ca36e29))
+
 ## [1.2.0](https://github.com/g-surkis/devops-sandbox/compare/v1.1.2...v1.2.0) (2026-10-15)
 
 
