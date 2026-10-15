@@ -1,0 +1,13 @@
+{
+  "items": [
+    { "metadata": { "name": "gpu-lb-7d9f" },
+      "spec":   { "nodeName": "gke-t4-pool-a1" },
+      "status": { "phase": "Running", "containerStatuses": [ { "restartCount": 0 } ] } },
+    { "metadata": { "name": "llama-t4-5c2b" },
+      "spec":   { "nodeName": "gke-t4-pool-a1" },
+      "status": { "phase": "Running", "containerStatuses": [ { "restartCount": 3 } ] } },
+    { "metadata": { "name": "llama-l4-8e1a" },
+      "spec":   { "nodeName": "gke-l4-pool-b2" },
+      "status": { "phase": "Pending", "containerStatuses": [ { "restartCount": 0 } ] } }
+  ]
+}
