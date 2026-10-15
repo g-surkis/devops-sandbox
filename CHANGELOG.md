@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/g-surkis/devops-sandbox/compare/v1.1.2...v1.2.0) (2026-10-15)
+
+
+### Features
+
+* bash-strict-mode ([#15](https://github.com/g-surkis/devops-sandbox/issues/15)) ([1ca8735](https://github.com/g-surkis/devops-sandbox/commit/1ca87359066cb2d1fae4ba0f24f0db790d96e3c0))
+
 ## [1.1.2](https://github.com/g-surkis/devops-sandbox/compare/v1.1.1...v1.1.2) (2026-10-14)
 
 
