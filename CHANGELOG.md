@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.0](https://github.com/g-surkis/devops-sandbox/compare/v1.3.0...v1.4.0) (2026-10-19)
+
+
+### Features
+
+* **hello-api:** add Fastify service with multi-stage distroless Dockerfile ([#21](https://github.com/g-surkis/devops-sandbox/issues/21)) ([e8e8793](https://github.com/g-surkis/devops-sandbox/commit/e8e8793292e7ce7bdb7f48e1bb68e63d652df555))
+* mini-container ([#19](https://github.com/g-surkis/devops-sandbox/issues/19)) ([a4c2d62](https://github.com/g-surkis/devops-sandbox/commit/a4c2d6257cd631c428774ec26c9a10a5e1e474bb))
+
 ## [1.3.0](https://github.com/g-surkis/devops-sandbox/compare/v1.2.0...v1.3.0) (2026-10-15)
 
 
