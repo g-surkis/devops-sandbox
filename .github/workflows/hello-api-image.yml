@@ -1,0 +1,34 @@
+name: hello-api image
+
+on:
+  pull_request:
+    # Run only when the service or this workflow changes
+    paths:
+      - "apps/hello-api/**"
+      - ".github/workflows/hello-api-image.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      IMAGE: hello-api:ci
+      # Compressed size budget in MB; current image is ~57MB
+      MAX_MB: 80
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Build image
+        run: docker build -t "$IMAGE" apps/hello-api
+
+      - name: Check compressed size
+        run: |
+          set -euo pipefail
+          bytes=$(docker save "$IMAGE" | gzip -c | wc -c)
+          mb=$(( bytes / 1024 / 1024 ))
+          echo "compressed size: ${mb}MB (budget ${MAX_MB}MB)"
+          # Also shown on the run summary page in the GitHub UI
+          echo "### hello-api image: ${mb}MB / ${MAX_MB}MB" >> "$GITHUB_STEP_SUMMARY"
+          if (( mb > MAX_MB )); then
+            echo "::error::image is ${mb}MB, budget is ${MAX_MB}MB"
+            exit 1
+          fi

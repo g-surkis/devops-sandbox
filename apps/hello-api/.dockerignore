@@ -1,0 +1,6 @@
+# Built and installed inside the image, never copied from the host
+node_modules
+dist
+# Not needed in the build context
+Dockerfile*
+.dockerignore
